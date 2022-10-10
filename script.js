@@ -7,11 +7,10 @@ const result = () => {
 
   if (isNaN(weight) || isNaN(height)) {
     alert("You Have Not Entered Data");
-    return isOpened;
+    return;
   } else {
     // confirm("Apakah sudah benar?");
-    const calculate = weight / ((height / 100) ** 2);
-    console.log(calculate);
+    const calculate = weight / (height / 100) ** 2;
     if (calculate < 18.5) {
       resultMeans.innerHTML = "Underweight";
       icon.innerHTML = '<i class="ri-error-warning-line warning"></i>';
