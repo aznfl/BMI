@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99bbff;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 50px;
+  color: #ffff;
+  text-align: center;
+  margin: 25px 0 70px;
+}
+
+.box {
+  text-align: center;
+  color: #99bbff;
+  background-color: #ffff;
+  width: 750px;
+  height: 650px;
+  padding: 60px 20px;
+  border-radius: 25px;
+  box-shadow: 2px 4px 4px #00000070;
+}
+
+.content {
+  margin: 25px;
+  justify-content: center;
+}
+
+.input label {
+  color: #78da78;
+  font-size: 25px;
+  margin: 30px 0 ;
+  display: block;
+}
+
+.input input {
+  color: #78da78;
+  font-weight: bold;
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  padding: 0 5px;
+  box-shadow: 2px 2px 2px #ccc, -2px -2px 2px #ffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.input input:focus {
+  box-shadow: 0px 0px 5px #99bbff;
+}
+
+.btn {
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #ccc, -2px -2px 2px #ffff;
+  color: #ffff;
+  font-size: 25px;
+  background-color: #78da78;
+  padding: 15px 25px;
+  margin-top: 45px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#resultBtn {
+  margin-top: 25px;
+}
+
+.btn:hover {
+  background-color: #99bbff;
+}
+
+.resultPage {
+    display: none;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  display: inline-flex;
+  box-shadow: 2px 2px 2px #ccc, -2px -2px 2px #ffff;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+i {
+  font-size: 185px;
+}
+
+#resultBmi,
+#resultMeans {
+  display: inline-block;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #ccc, -2px -2px 2px #ffff;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 25px;
+  margin-top: 15px;
+}
+
+.normal {
+    color: #358CFF;
+}
+
+.normalBg {
+    background-color: #358CFF;
+}
+
+.warning {
+    color: #FFA216;
+}
+
+.warningBg {
+    background-color: #FFA216;
+}
+
+.danger {
+    color: #FF4F5A;
+}
+
+.dangerBg {
+    background-color: #FF4F5A;
+}
+
+h3 {
+  margin: 0 0 80px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.display {
+    display: flex;
+}
+
+#result {
+  padding: 40px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+
+    <!-- Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- External Javascript -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">CHECK YOUR <br> BMI (Body Mass Index)</h1>
+      <div class="box">
+        <h3>
+          Enter your weight and height <br />
+          below to check your BMI results
+        </h3>
+        <div class="content">
+          <div class="input">
+            <label for="weight">Put your weight in here (KG)</label>
+            <input type="number" id="weight" />
+          </div>
+          <div class="input">
+            <label for="height">And your height in here (CM)</label>
+            <input type="number" id="height" />
+          </div>
+          <button class="btn" id="calculateBtn">Calculate BMI</button>
+        </div>
+      </div>
+    </div>
+    <div class="resultPage">
+      <div class="container">
+        <h1 class="title">CHECK YOUR <br> BMI (Body Mass Index)</h1>
+        <div class="box" id="result">
+          <div class="content" id="resultContent">
+            <span class="icon"></span>
+            <h2>Your BMI is</h2>
+            <div id="resultBmi"></div>
+            <h2>Which Means You are</h2>
+            <div id="resultMeans"></div>
+          </div>
+          <button class="btn" id="resultBtn">OKE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
